@@ -1,0 +1,20 @@
+.app {
+  font-family: Georgia, sans-serif;
+}
+
+.upload {
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  flex-basis: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,55 @@
+.node {
+  padding: 4px 0 4px 20px;
+  cursor: pointer;
+}
+
+.node-name {
+  position: relative;
+  padding-right: 120px;
+}
+
+.node-children {
+  padding-left: 20px;
+}
+
+.node-oprator {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  display: flex;
+}
+
+.node-oprator > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.node-oprator > span:hover {
+  background-color: #ddd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.node-toogle {
+  position: absolute;
+  display: flex;
+  width: 12px;
+  height: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border: 1px solid #ccc;
+
+  left: -16px;
+  top: 3px;
+}
